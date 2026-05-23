@@ -1,13 +1,14 @@
-import Header       from './components/Header'
-import Hero         from './components/Hero'
-import SobreNosotros from './components/SobreNosotros'
-import Sectores     from './components/Sectores'
-import Servicios    from './components/Servicios'
-import Afiliacion   from './components/Afiliacion'
-import Eventos      from './components/Eventos'
-import Testimonios  from './components/Testimonios'
-import Contacto     from './components/Contacto'
-import Footer       from './components/Footer'
+import Header          from './components/Header'
+import Hero            from './components/Hero'
+import SobreNosotros   from './components/SobreNosotros'
+import Sectores        from './components/Sectores'
+import GaleriaArtistas from './components/GaleriaArtistas'
+import Servicios       from './components/Servicios'
+import Afiliacion      from './components/Afiliacion'
+import Eventos         from './components/Eventos'
+import Testimonios     from './components/Testimonios'
+import Contacto        from './components/Contacto'
+import Footer          from './components/Footer'
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Hero />
         <SobreNosotros />
         <Sectores />
+        <GaleriaArtistas />
         <Servicios />
         <Afiliacion />
         <Eventos />

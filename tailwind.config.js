@@ -44,6 +44,9 @@ export default {
         serif: ['"Playfair Display"', 'Georgia', 'serif'],
         sans:  ['"DM Sans"', 'Inter', 'system-ui', 'sans-serif'],
       },
+      scale: {
+        '108': '1.08',
+      },
       animation: {
         'fade-up':  'fadeUp 0.7s ease forwards',
         'fade-in':  'fadeIn 0.5s ease forwards',
